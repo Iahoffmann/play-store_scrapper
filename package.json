@@ -1,0 +1,37 @@
+{
+  "name": "play-store_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "start": "babel-node -x \".ts\" src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "csv": "^5.3.2",
+    "google-play-scraper": "^8.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^7.19.0",
+    "typescript": "^4.1.5"
+  }
+}

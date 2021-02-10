@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        // Ensure that .d.ts files are created by tsc, but not .js files
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        // Ensure that Babel can safely transpile files in the TypeScript project
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

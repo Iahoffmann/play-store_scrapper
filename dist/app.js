@@ -1,0 +1,10 @@
+"use strict";
+
+// app({appId: 'free.programming.programming'}) 
+// 	.then(console.log, console.log);
+function myFunc(x) {
+  console.log(x);
+}
+
+myFunc(1);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9hcHAudHMiXSwibmFtZXMiOlsibXlGdW5jIiwieCIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBRUE7QUFDQTtBQUVBLFNBQVNBLE1BQVQsQ0FBZ0JDLENBQWhCLEVBQXdCO0FBQ3ZCQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUYsQ0FBWjtBQUNBOztBQUVERCxNQUFNLENBQUMsQ0FBRCxDQUFOIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgYXBwLCAgfSBmcm9tICdnb29nbGUtcGxheS1zY3JhcGVyJzsgXHJcblxyXG4vLyBhcHAoe2FwcElkOiAnZnJlZS5wcm9ncmFtbWluZy5wcm9ncmFtbWluZyd9KSBcclxuLy8gXHQudGhlbihjb25zb2xlLmxvZywgY29uc29sZS5sb2cpO1xyXG5cclxuZnVuY3Rpb24gbXlGdW5jKHg6IGFueSkge1xyXG5cdGNvbnNvbGUubG9nKHgpO1xyXG59XHJcblxyXG5teUZ1bmMoMSk7Il19
